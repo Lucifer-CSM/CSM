@@ -301,7 +301,7 @@ ethic_fanatic_egalitarian = {
 
 	country_modifier = {
 		pop_factions_produces_mult = 0.5
-		planet_jobs_specialist_produces_mult = 0.1
+		planet_jobs_specialist_produces_mult = 0.075
 	}
 
 	random_weight = {
@@ -587,7 +587,7 @@ ethic_fanatic_xenophobe = {
 
 	country_modifier = {
 		country_starbase_influence_cost_mult = -0.4
-		pop_growth_speed = 0.20
+		pop_growth_speed = 0.10
 	}
 
 	random_weight = {
@@ -613,7 +613,7 @@ ethic_xenophobe = {
 
 	country_modifier = {
 		country_starbase_influence_cost_mult = -0.2
-		pop_growth_speed = 0.10
+		pop_growth_speed = 0.05
 	}
 
 	random_weight = {
@@ -966,7 +966,7 @@ ethic_fanatic_xenophile = {
 	}
 
 	country_modifier = {
-		trade_value_mult = 0.20
+		trade_value_mult = 0.15
 		envoys_add = 2
 	}
 
@@ -992,7 +992,7 @@ ethic_xenophile = {
 	}
 
 	country_modifier = {
-		trade_value_mult = 0.10
+		trade_value_mult = 0.075
 		envoys_add = 1
 	}
 
@@ -1316,7 +1316,7 @@ ethic_fanatic_militarist = {
 
 	country_modifier = {
 		country_claim_influence_cost_mult = -0.2
-		ship_fire_rate_mult = 0.20
+		ship_fire_rate_mult = 0.10
 	}
 
 	# more common ethic
@@ -1338,7 +1338,7 @@ ethic_militarist = {
 
 	country_modifier = {
 		country_claim_influence_cost_mult = -0.1
-		ship_fire_rate_mult = 0.10
+		ship_fire_rate_mult = 0.05
 	}
 
 	# more common ethic
@@ -2247,7 +2247,7 @@ ethic_fanatic_materialist = {
 	}
 
 	country_modifier = {
-		planet_pops_robotics_upkeep_mult = -0.2
+		planet_pops_robotics_upkeep_mult = -0.1
 		all_technology_research_speed = 0.10
 	}
 
@@ -2272,7 +2272,7 @@ ethic_materialist = {
 	}
 
 	country_modifier = {
-		planet_pops_robotics_upkeep_mult = -0.1
+		planet_pops_robotics_upkeep_mult = -0.05
 		all_technology_research_speed = 0.05
 	}
 
