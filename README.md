@@ -1,2 +1,0 @@
-# CSM
-Competitive Stellaris Multiplayer
