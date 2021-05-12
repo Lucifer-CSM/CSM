@@ -11,7 +11,7 @@ trait_agrarian = {
 }
 
 trait_ingenious = {
-	cost = 3
+	cost = 2
 	potential_crossbreeding_chance = 1.0
 	allowed_archetypes = { BIOLOGICAL LITHOID }
 	modifier = {
