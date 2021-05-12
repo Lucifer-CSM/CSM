@@ -111,13 +111,11 @@ civic_hive_devouring_swarm = {
 	description = "civic_tooltip_devouring_swarm_effects"
 	modifier = {
 		country_starbase_influence_cost_mult = -0.5
-		ship_hull_mult = 0.25
-		ship_hull_regen_add_perc = 0.5
-		ship_armor_regen_add_perc = 0.5
-		army_damage_mult = 0.40
-		category_biology_research_speed_mult = 0.20
-		starbase_shipyard_build_cost_mult = -0.25
-		country_naval_cap_mult = 0.33
+		ship_hull_mult = 0.10
+		army_damage_mult = 0.25
+		category_biology_research_speed_mult = 0.15
+		starbase_shipyard_build_cost_mult = -0.10
+		country_naval_cap_mult = 0.20
 	}
 
 	swap_type = {
@@ -237,9 +235,9 @@ civic_machine_terminator = {
 	description = civic_tooltip_machine_terminator_effects
 	modifier = {
 		country_starbase_influence_cost_mult = -0.3
-		ship_weapon_damage = 0.25
-		starbase_shipyard_build_cost_mult = -0.15
-		country_naval_cap_mult = 0.33
+		ship_weapon_damage = 0.10
+		starbase_shipyard_build_cost_mult = -0.10
+		country_naval_cap_mult = 0.20
 	}
 }
 
@@ -388,7 +386,7 @@ civic_machine_replication = {
 	potential = { authority = { value = auth_machine_intelligence } }
 	random_weight = { base = 5 }
 	modifier = {
-		planet_pop_assembly_mult = 0.20
+		planet_pop_assembly_mult = 0.15
 	}
 }
 
