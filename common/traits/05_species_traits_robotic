@@ -258,7 +258,7 @@ trait_robot_repurposed_hardware = {
 }
 
 trait_robot_mass_produced = {
-	cost = 1
+	cost = 2
 	opposites = { "trait_robot_custom_made" }
 
 	allowed_archetypes = { ROBOT MACHINE }
@@ -269,13 +269,13 @@ trait_robot_mass_produced = {
 }
 
 trait_robot_custom_made = {
-	cost = -1
+	cost = -2
 	opposites = { "trait_robot_mass_produced" }
 
 	allowed_archetypes = { ROBOT MACHINE }
 
 	modifier = {
-		pop_assembly_speed = -0.15
+		pop_assembly_speed = -0.10
 	}
 	ai_weight = {
 		factor = 0
@@ -290,7 +290,7 @@ trait_robot_recycled = {
 
 	#assembling_modifier, declining_modifier, growing_modifier are applied to planet when pop is the one assembling/declining/growing
 	assembling_modifier = {
-		planet_pop_assemblers_upkeep_mult = -0.20
+		planet_pop_assemblers_upkeep_mult = -0.15
 	}
 }
 
@@ -314,7 +314,7 @@ trait_robot_luxurious = {
 }
 
 trait_robot_propaganda_machines = {
-	cost = 1
+	cost = 2
 
 	allowed_archetypes = { ROBOT }
 
@@ -333,19 +333,19 @@ trait_robot_propaganda_machines = {
 }
 
 trait_robot_streamlined_protocols = {
-	cost = 2
+	cost = 1
 	opposites = { "trait_robot_high_bandwidth" }
 	allowed_archetypes = { ROBOT MACHINE }
 	modifier = {
-		species_empire_size_mult = -0.10
+		species_empire_size_mult = -0.20
 	}
 }
 
 trait_robot_high_bandwidth = {
-	cost = -2
+	cost = -1
 	opposites = { "trait_robot_streamlined_protocols" }
 	allowed_archetypes = { ROBOT MACHINE }
 	modifier = {
-		species_empire_size_mult = 0.10
+		species_empire_size_mult = 0.20
 	}
 }
