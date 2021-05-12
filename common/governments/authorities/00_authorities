@@ -152,8 +152,8 @@ auth_hive_mind = {
 	}
 
 	country_modifier = {
-		pop_growth_speed = 0.25
-		empire_size_penalty_mult = -0.25
+		pop_growth_speed = 0.15
+		empire_size_penalty_mult = -0.20
 	}
 
 	tags = {
